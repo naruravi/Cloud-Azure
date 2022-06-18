@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appdb", "appdb\appdb.csproj", "{F248F6CD-F11C-4817-AF0B-E5797D089907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appdb", "appdb\appdb.csproj", "{F248F6CD-F11C-4817-AF0B-E5797D089907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure-AppConfiguration-Service", "Azure-AppConfiguration-Service\Azure-AppConfiguration-Service.csproj", "{D91F15A9-6839-49EB-8C63-8B94A273C674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F248F6CD-F11C-4817-AF0B-E5797D089907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F248F6CD-F11C-4817-AF0B-E5797D089907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F248F6CD-F11C-4817-AF0B-E5797D089907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91F15A9-6839-49EB-8C63-8B94A273C674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91F15A9-6839-49EB-8C63-8B94A273C674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91F15A9-6839-49EB-8C63-8B94A273C674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91F15A9-6839-49EB-8C63-8B94A273C674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

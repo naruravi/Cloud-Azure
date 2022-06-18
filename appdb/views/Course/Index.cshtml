@@ -1,0 +1,30 @@
+﻿
+@model IEnumerable<appdb.models.Course>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Course Id</th>
+            <th>Course Name</th>
+            <th>Rating</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th class="row">@item.CourseID</th>
+                <th>@item.CourseName</th>
+                <th>@item.Rating</th>
+            </tr>
+
+        }
+    </table>
+
+</body>
+</html>
